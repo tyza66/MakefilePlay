@@ -1,0 +1,471 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/Softwares/C-Free5/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/3.29.5-msvc4/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/Softwares/C-Free5/mingw/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/3.29.5-msvc4/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-w4lb78"
+      binary: "D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-w4lb78"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-w4lb78'
+        
+        Run Build Command(s): "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Softwares/C-Free5/mingw/bin/mingw32-make.exe -f Makefile cmTC_90f7c/fast
+        D:/Softwares/C-Free5/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_90f7c.dir\\build.make CMakeFiles/cmTC_90f7c.dir/build
+        mingw32-make.exe[1]: Entering directory `D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-w4lb78'
+        Building C object CMakeFiles/cmTC_90f7c.dir/CMakeCCompilerABI.c.obj
+        D:\\Softwares\\C-Free5\\mingw\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_90f7c.dir\\CMakeCCompilerABI.c.obj -c "D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        Reading specs from D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/specs
+        Configured with: ../gcc-3.4.5-20060117-3/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug
+        Thread model: win32
+        gcc version 3.4.5 (mingw-vista special r3)
+         D:/Softwares/C-Free5/mingw/bin/../libexec/gcc/mingw32/3.4.5/cc1.exe -quiet -v -iprefix D:\\Softwares\\C-Free5\\mingw\\bin\\../lib/gcc/mingw32/3.4.5/ D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles\\cmTC_90f7c.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\tyza66\\AppData\\Local\\Temp/cciJhZ7Z.s
+        ignoring nonexistent directory "D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring nonexistent directory "/mingw/lib/gcc/mingw32/3.4.5/include"
+        ignoring nonexistent directory "/mingw/mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include
+         D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/include
+        End of search list.
+        GNU C version 3.4.5 (mingw-vista special r3) (mingw32)
+        	compiled by GNU C version 3.4.5 (mingw-vista special r3).
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+         D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/bin/as.exe -o CMakeFiles\\cmTC_90f7c.dir\\CMakeCCompilerABI.c.obj C:\\Users\\tyza66\\AppData\\Local\\Temp/cciJhZ7Z.s
+        Linking C executable cmTC_90f7c.exe
+        "D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_90f7c.dir\\link.txt --verbose=1
+        D:\\Softwares\\C-Free5\\mingw\\bin\\gcc.exe  -v -Wl,-v -Wl,@CMakeFiles\\cmTC_90f7c.dir\\objects1.rsp -o cmTC_90f7c.exe -Wl,--out-implib,libcmTC_90f7c.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Reading specs from D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/specs
+        Configured with: ../gcc-3.4.5-20060117-3/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug
+        Thread model: win32
+        gcc version 3.4.5 (mingw-vista special r3)
+         D:/Softwares/C-Free5/mingw/bin/../libexec/gcc/mingw32/3.4.5/collect2.exe -Bdynamic -o cmTC_90f7c.exe D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5 -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../.. -v @CMakeFiles\\cmTC_90f7c.dir\\objects1.rsp --out-implib libcmTC_90f7c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o
+        collect2 version 3.4.5 (mingw-vista special r3) (x86 MinGW)
+        D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/bin/ld.exe -Bdynamic -o cmTC_90f7c.exe D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5 -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../.. -v @CMakeFiles\\cmTC_90f7c.dir\\objects1.rsp --out-implib libcmTC_90f7c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o
+        GNU ld (GNU Binutils) 2.19.1
+        mingw32-make.exe[1]: Leaving directory `D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-w4lb78'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include]
+          add: [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/include]
+        end of search list found
+        collapse include dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include] ==> [D:/Softwares/C-Free5/mingw/include]
+        collapse include dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/include] ==> [D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5/include]
+        implicit include dirs: [D:/Softwares/C-Free5/mingw/include;D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-w4lb78']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Softwares/C-Free5/mingw/bin/mingw32-make.exe -f Makefile cmTC_90f7c/fast]
+        ignore line: [D:/Softwares/C-Free5/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_90f7c.dir\\build.make CMakeFiles/cmTC_90f7c.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory `D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-w4lb78']
+        ignore line: [Building C object CMakeFiles/cmTC_90f7c.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\Softwares\\C-Free5\\mingw\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_90f7c.dir\\CMakeCCompilerABI.c.obj -c "D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Reading specs from D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/specs]
+        ignore line: [Configured with: ../gcc-3.4.5-20060117-3/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 3.4.5 (mingw-vista special r3)]
+        ignore line: [ D:/Softwares/C-Free5/mingw/bin/../libexec/gcc/mingw32/3.4.5/cc1.exe -quiet -v -iprefix D:\\Softwares\\C-Free5\\mingw\\bin\\../lib/gcc/mingw32/3.4.5/ D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles\\cmTC_90f7c.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\tyza66\\AppData\\Local\\Temp/cciJhZ7Z.s]
+        ignore line: [ignoring nonexistent directory "D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/lib/gcc/mingw32/3.4.5/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include]
+        ignore line: [ D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C version 3.4.5 (mingw-vista special r3) (mingw32)]
+        ignore line: [	compiled by GNU C version 3.4.5 (mingw-vista special r3).]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/bin/as.exe -o CMakeFiles\\cmTC_90f7c.dir\\CMakeCCompilerABI.c.obj C:\\Users\\tyza66\\AppData\\Local\\Temp/cciJhZ7Z.s]
+        ignore line: [Linking C executable cmTC_90f7c.exe]
+        ignore line: ["D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_90f7c.dir\\link.txt --verbose=1]
+        ignore line: [D:\\Softwares\\C-Free5\\mingw\\bin\\gcc.exe  -v -Wl -v -Wl @CMakeFiles\\cmTC_90f7c.dir\\objects1.rsp -o cmTC_90f7c.exe -Wl --out-implib libcmTC_90f7c.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Reading specs from D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/specs]
+        ignore line: [Configured with: ../gcc-3.4.5-20060117-3/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 3.4.5 (mingw-vista special r3)]
+        link line: [ D:/Softwares/C-Free5/mingw/bin/../libexec/gcc/mingw32/3.4.5/collect2.exe -Bdynamic -o cmTC_90f7c.exe D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5 -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../.. -v @CMakeFiles\\cmTC_90f7c.dir\\objects1.rsp --out-implib libcmTC_90f7c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o]
+          arg [D:/Softwares/C-Free5/mingw/bin/../libexec/gcc/mingw32/3.4.5/collect2.exe] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_90f7c.exe] ==> ignore
+          arg [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o] ==> obj [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o]
+          arg [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o] ==> obj [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o]
+          arg [-LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5] ==> dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5]
+          arg [-LD:/Softwares/C-Free5/mingw/bin/../lib/gcc] ==> dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc]
+          arg [-LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib] ==> dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib]
+          arg [-LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../..] ==> dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../..]
+          arg [-v] ==> ignore
+          arg [@CMakeFiles\\cmTC_90f7c.dir\\objects1.rsp] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_90f7c.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o] ==> obj [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o]
+        ignore line: [collect2 version 3.4.5 (mingw-vista special r3) (x86 MinGW)]
+        ignore line: [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/bin/ld.exe -Bdynamic -o cmTC_90f7c.exe D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5 -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../.. -v @CMakeFiles\\cmTC_90f7c.dir\\objects1.rsp --out-implib libcmTC_90f7c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o]
+        linker tool for 'C': D:/Softwares/C-Free5/mingw/mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o] ==> [D:/Softwares/C-Free5/mingw/lib/crt2.o]
+        collapse obj [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o] ==> [D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5/crtbegin.o]
+        collapse obj [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o] ==> [D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5/crtend.o]
+        collapse library dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5] ==> [D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5]
+        collapse library dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc] ==> [D:/Softwares/C-Free5/mingw/lib/gcc]
+        collapse library dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib] ==> [D:/Softwares/C-Free5/mingw/mingw32/lib]
+        collapse library dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../..] ==> [D:/Softwares/C-Free5/mingw/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;user32;kernel32;advapi32;shell32;mingw32;gcc;moldname;mingwex]
+        implicit objs: [D:/Softwares/C-Free5/mingw/lib/crt2.o;D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5/crtbegin.o;D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5/crtend.o]
+        implicit dirs: [D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5;D:/Softwares/C-Free5/mingw/lib/gcc;D:/Softwares/C-Free5/mingw/mingw32/lib;D:/Softwares/C-Free5/mingw/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Softwares/C-Free5/mingw/mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.19.1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-dhecv5"
+      binary: "D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-dhecv5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-dhecv5'
+        
+        Run Build Command(s): "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Softwares/C-Free5/mingw/bin/mingw32-make.exe -f Makefile cmTC_a8f6c/fast
+        D:/Softwares/C-Free5/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a8f6c.dir\\build.make CMakeFiles/cmTC_a8f6c.dir/build
+        mingw32-make.exe[1]: Entering directory `D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-dhecv5'
+        Building CXX object CMakeFiles/cmTC_a8f6c.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\Softwares\\C-Free5\\mingw\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_a8f6c.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        Reading specs from D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/specs
+        Configured with: ../gcc-3.4.5-20060117-3/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug
+        Thread model: win32
+        gcc version 3.4.5 (mingw-vista special r3)
+         D:/Softwares/C-Free5/mingw/bin/../libexec/gcc/mingw32/3.4.5/cc1plus.exe -quiet -v -iprefix D:\\Softwares\\C-Free5\\mingw\\bin\\../lib/gcc/mingw32/3.4.5/ D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles\\cmTC_a8f6c.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\tyza66\\AppData\\Local\\Temp/cczDHIZS.s
+        ignoring nonexistent directory "D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/include"
+        ignoring nonexistent directory "/mingw/include/c++/3.4.5"
+        ignoring nonexistent directory "/mingw/include/c++/3.4.5/mingw32"
+        ignoring nonexistent directory "/mingw/include/c++/3.4.5/backward"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring nonexistent directory "/mingw/include"
+        ignoring nonexistent directory "/mingw/lib/gcc/mingw32/3.4.5/include"
+        ignoring nonexistent directory "/mingw/mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5
+         D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32
+         D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward
+         D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include
+         D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/include
+        End of search list.
+        GNU C++ version 3.4.5 (mingw-vista special r3) (mingw32)
+        	compiled by GNU C version 3.4.5 (mingw-vista special r3).
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+         D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/bin/as.exe -o CMakeFiles\\cmTC_a8f6c.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\tyza66\\AppData\\Local\\Temp/cczDHIZS.s
+        Linking CXX executable cmTC_a8f6c.exe
+        "D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a8f6c.dir\\link.txt --verbose=1
+        D:\\Softwares\\C-Free5\\mingw\\bin\\c++.exe  -v -Wl,-v -Wl,@CMakeFiles\\cmTC_a8f6c.dir\\objects1.rsp -o cmTC_a8f6c.exe -Wl,--out-implib,libcmTC_a8f6c.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Reading specs from D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/specs
+        Configured with: ../gcc-3.4.5-20060117-3/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug
+        Thread model: win32
+        gcc version 3.4.5 (mingw-vista special r3)
+         D:/Softwares/C-Free5/mingw/bin/../libexec/gcc/mingw32/3.4.5/collect2.exe -Bdynamic -o cmTC_a8f6c.exe D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5 -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../.. -v @CMakeFiles\\cmTC_a8f6c.dir\\objects1.rsp --out-implib libcmTC_a8f6c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o
+        collect2 version 3.4.5 (mingw-vista special r3) (x86 MinGW)
+        D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/bin/ld.exe -Bdynamic -o cmTC_a8f6c.exe D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5 -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../.. -v @CMakeFiles\\cmTC_a8f6c.dir\\objects1.rsp --out-implib libcmTC_a8f6c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o
+        GNU ld (GNU Binutils) 2.19.1
+        mingw32-make.exe[1]: Leaving directory `D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-dhecv5'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5]
+          add: [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32]
+          add: [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward]
+          add: [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include]
+          add: [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/include]
+        end of search list found
+        collapse include dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5] ==> [D:/Softwares/C-Free5/mingw/include/c++/3.4.5]
+        collapse include dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32] ==> [D:/Softwares/C-Free5/mingw/include/c++/3.4.5/mingw32]
+        collapse include dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward] ==> [D:/Softwares/C-Free5/mingw/include/c++/3.4.5/backward]
+        collapse include dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include] ==> [D:/Softwares/C-Free5/mingw/include]
+        collapse include dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/include] ==> [D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5/include]
+        implicit include dirs: [D:/Softwares/C-Free5/mingw/include/c++/3.4.5;D:/Softwares/C-Free5/mingw/include/c++/3.4.5/mingw32;D:/Softwares/C-Free5/mingw/include/c++/3.4.5/backward;D:/Softwares/C-Free5/mingw/include;D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-dhecv5']
+        ignore line: []
+        ignore line: [Run Build Command(s): "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Softwares/C-Free5/mingw/bin/mingw32-make.exe -f Makefile cmTC_a8f6c/fast]
+        ignore line: [D:/Softwares/C-Free5/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a8f6c.dir\\build.make CMakeFiles/cmTC_a8f6c.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory `D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-dhecv5']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a8f6c.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\Softwares\\C-Free5\\mingw\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_a8f6c.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Reading specs from D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/specs]
+        ignore line: [Configured with: ../gcc-3.4.5-20060117-3/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 3.4.5 (mingw-vista special r3)]
+        ignore line: [ D:/Softwares/C-Free5/mingw/bin/../libexec/gcc/mingw32/3.4.5/cc1plus.exe -quiet -v -iprefix D:\\Softwares\\C-Free5\\mingw\\bin\\../lib/gcc/mingw32/3.4.5/ D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles\\cmTC_a8f6c.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\tyza66\\AppData\\Local\\Temp/cczDHIZS.s]
+        ignore line: [ignoring nonexistent directory "D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include/c++/3.4.5"]
+        ignore line: [ignoring nonexistent directory "/mingw/include/c++/3.4.5/mingw32"]
+        ignore line: [ignoring nonexistent directory "/mingw/include/c++/3.4.5/backward"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/lib/gcc/mingw32/3.4.5/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5]
+        ignore line: [ D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/mingw32]
+        ignore line: [ D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include/c++/3.4.5/backward]
+        ignore line: [ D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../include]
+        ignore line: [ D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++ version 3.4.5 (mingw-vista special r3) (mingw32)]
+        ignore line: [	compiled by GNU C version 3.4.5 (mingw-vista special r3).]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/bin/as.exe -o CMakeFiles\\cmTC_a8f6c.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\tyza66\\AppData\\Local\\Temp/cczDHIZS.s]
+        ignore line: [Linking CXX executable cmTC_a8f6c.exe]
+        ignore line: ["D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a8f6c.dir\\link.txt --verbose=1]
+        ignore line: [D:\\Softwares\\C-Free5\\mingw\\bin\\c++.exe  -v -Wl -v -Wl @CMakeFiles\\cmTC_a8f6c.dir\\objects1.rsp -o cmTC_a8f6c.exe -Wl --out-implib libcmTC_a8f6c.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Reading specs from D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/specs]
+        ignore line: [Configured with: ../gcc-3.4.5-20060117-3/configure --with-gcc --with-gnu-ld --with-gnu-as --host=mingw32 --target=mingw32 --prefix=/mingw --enable-threads --disable-nls --enable-languages=c,c++,f77,ada,objc,java --disable-win32-registry --disable-shared --enable-sjlj-exceptions --enable-libgcj --disable-java-awt --without-x --enable-java-gc=boehm --disable-libgcj-debug --enable-interpreter --enable-hash-synchronization --enable-libstdcxx-debug]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 3.4.5 (mingw-vista special r3)]
+        link line: [ D:/Softwares/C-Free5/mingw/bin/../libexec/gcc/mingw32/3.4.5/collect2.exe -Bdynamic -o cmTC_a8f6c.exe D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5 -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../.. -v @CMakeFiles\\cmTC_a8f6c.dir\\objects1.rsp --out-implib libcmTC_a8f6c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o]
+          arg [D:/Softwares/C-Free5/mingw/bin/../libexec/gcc/mingw32/3.4.5/collect2.exe] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_a8f6c.exe] ==> ignore
+          arg [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o] ==> obj [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o]
+          arg [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o] ==> obj [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o]
+          arg [-LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5] ==> dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5]
+          arg [-LD:/Softwares/C-Free5/mingw/bin/../lib/gcc] ==> dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc]
+          arg [-LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib] ==> dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib]
+          arg [-LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../..] ==> dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../..]
+          arg [-v] ==> ignore
+          arg [@CMakeFiles\\cmTC_a8f6c.dir\\objects1.rsp] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_a8f6c.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o] ==> obj [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o]
+        ignore line: [collect2 version 3.4.5 (mingw-vista special r3) (x86 MinGW)]
+        ignore line: [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/bin/ld.exe -Bdynamic -o cmTC_a8f6c.exe D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5 -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib -LD:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../.. -v @CMakeFiles\\cmTC_a8f6c.dir\\objects1.rsp --out-implib libcmTC_a8f6c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o]
+        linker tool for 'CXX': D:/Softwares/C-Free5/mingw/mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../crt2.o] ==> [D:/Softwares/C-Free5/mingw/lib/crt2.o]
+        collapse obj [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtbegin.o] ==> [D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5/crtbegin.o]
+        collapse obj [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/crtend.o] ==> [D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5/crtend.o]
+        collapse library dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5] ==> [D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5]
+        collapse library dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc] ==> [D:/Softwares/C-Free5/mingw/lib/gcc]
+        collapse library dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../../../mingw32/lib] ==> [D:/Softwares/C-Free5/mingw/mingw32/lib]
+        collapse library dir [D:/Softwares/C-Free5/mingw/bin/../lib/gcc/mingw32/3.4.5/../../..] ==> [D:/Softwares/C-Free5/mingw/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;user32;kernel32;advapi32;shell32;mingw32;gcc;moldname;mingwex]
+        implicit objs: [D:/Softwares/C-Free5/mingw/lib/crt2.o;D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5/crtbegin.o;D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5/crtend.o]
+        implicit dirs: [D:/Softwares/C-Free5/mingw/lib/gcc/mingw32/3.4.5;D:/Softwares/C-Free5/mingw/lib/gcc;D:/Softwares/C-Free5/mingw/mingw32/lib;D:/Softwares/C-Free5/mingw/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Softwares/C-Free5/mingw/mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.19.1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:137 (_record_compiler_features_cxx)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-2a7drk"
+      binary: "D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-2a7drk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-2a7drk'
+        
+        Run Build Command(s): "D:/Softwares/Microsoft Visual Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 D:/Softwares/C-Free5/mingw/bin/mingw32-make.exe -f Makefile cmTC_75157/fast
+        D:/Softwares/C-Free5/mingw/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_75157.dir\\build.make CMakeFiles/cmTC_75157.dir/build
+        mingw32-make.exe[1]: Entering directory `D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-2a7drk'
+        Building CXX object CMakeFiles/cmTC_75157.dir/feature_tests.cxx.obj
+        D:\\Softwares\\C-Free5\\mingw\\bin\\c++.exe   -std=c++98 -o CMakeFiles\\cmTC_75157.dir\\feature_tests.cxx.obj -c D:\\Workspace\\Projects\\tyza66\\MakefilePlay\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2a7drk\\feature_tests.cxx
+        Linking CXX executable cmTC_75157.exe
+        "D:\\Softwares\\Microsoft Visual Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_75157.dir\\link.txt --verbose=1
+        D:\\Softwares\\C-Free5\\mingw\\bin\\c++.exe -Wl,@CMakeFiles\\cmTC_75157.dir\\objects1.rsp -o cmTC_75157.exe -Wl,--out-implib,libcmTC_75157.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+        mingw32-make.exe[1]: Leaving directory `D:/Workspace/Projects/tyza66/MakefilePlay/Build/CMakeFiles/CMakeScratch/TryCompile-2a7drk'
+        
+      exitCode: 0
+...

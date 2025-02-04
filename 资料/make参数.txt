@@ -6,3 +6,15 @@ make -f hello.kk
 make -C folder1
 但项目的工程下有多个不同的子模块,每个子模块都有自己的makefile的时候
 就可以在工程的根目录下创建一个汇总的makefile去调用各个子模块的makefile
+
+cmake_minimum_required(VERSION 3.0) cmake最小版本要求
+
+project(HelloWorld) 工程名字
+
+set(SOURCES main.c message.c)  源文件列表
+
+add_executable(hello ${SOURCES})  生成可执行文件命令
+hello是生成可执行文件的名字 ${SOURCES}这个变量表示这个可执行文件是由这个变量中的源文件生成的
+
+在指定文件夹里面 cmake .  cmakelists在当前目录下时用
+cmake .. cmakelists在父目录下时用

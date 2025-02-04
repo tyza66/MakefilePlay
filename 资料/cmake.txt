@@ -1,0 +1,19 @@
+cmake是一个跨平台的构建工具,它可以根据不同的平台或编译器生成对应的构建文件
+
+它的配置我呢见叫做CMakeLists.txt
+
+windows上面
+cmake -G "MinGW Makefile" . 如果使用 MinGW Makefiles：
+cmake -G "NMake Makefiles".  如果使用 NMake Makefiles：
+
+
+在 Windows 上，当您运行 CMake 而不指定生成器类型时，CMake 会默认使用 Visual Studio 生成器。这意味着默认情况下，CMake 会生成适用于 Visual Studio 的项目文件（例如 .sln 和 .vcxproj 文件）。
+
+如果您希望生成其他类型的构建文件（例如 Makefile 或 Ninja 文件），您可以使用 -G 选项来指定生成器。例如，要生成 MinGW Makefiles，您可以使用以下命令：
+
+sh
+cmake -G "MinGW Makefiles" ..
+要生成适用于 Ninja 的构建文件，您可以使用以下命令：
+
+sh
+cmake -G "Ninja" ..
