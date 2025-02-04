@@ -16,3 +16,6 @@ main.o: main.c message.h
 message.o: message.c message.h
     gcc -c message.c
 在这个 Makefile 中，main.o 和 message.o 明确依赖于 message.h，这确保了在 message.h 更改时，相应的源文件会被重新编译。
+
+这里的意思就是hello依赖于main.o和message.o,当这俩文件变化的时候要重新构建并且重新构建使用gcc main.o message.o -o 这条指令 然后下面的main.o依赖main.c和message.h ...
+而编译的顺序会根据依赖关系自行处理
