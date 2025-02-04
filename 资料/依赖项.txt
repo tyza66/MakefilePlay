@@ -1,0 +1,31 @@
+就是第一行定义的那个是默认直接make的时候调的,运行它的之后也会自动找依赖文件,之后再先执行一下生成依赖用的,如果我想先调用别的,就是下面的 就直接带参数就行了 带参数的如果有依赖 还是会自己调用生成依赖的其他的
+
+默认目标：Makefile 的第一行定义了默认目标。默认情况下，当您只运行 make 命令而不带任何参数时，这个目标会被执行。默认目标通常是生成最终文件，如可执行文件。
+
+依赖关系：Make 会自动找到依赖文件，并根据依赖关系确定编译顺序。如果目标有依赖项，Make 会先构建这些依赖项，再生成目标文件。
+
+自定义目标：如果您想先调用其他目标，您只需在 make 命令后带上目标名称。例如，make clean 会调用 clean 目标。带参数的目标如果有依赖项，Make 也会先构建这些依赖项。
+
+例如：
+
+makefile
+all: hello clean
+
+hello: main.o message.o
+    gcc main.o message.o -o hello
+
+main.o: main.c message.h
+    gcc -c main.c
+
+message.o: message.c message.h
+    gcc -c message.c
+
+clean:
+    del *.o hello.exe
+在这个示例中：
+
+默认目标是 all，它依赖于 hello 和 clean。
+
+当您运行 make 时，hello 目标会先被构建，然后 clean 目标会被执行。
+
+如果您运行 make clean，只会执行 clean 目标，并删除生成的文件。
