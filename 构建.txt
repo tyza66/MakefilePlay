@@ -6,3 +6,6 @@
 但是复杂项目就需要构建工具了
 
 gcc main.c -o hello
+
+
+touch能更新文件时间戳

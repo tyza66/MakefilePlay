@@ -1,0 +1,18 @@
+makefile中不用写头文件的依赖,它会自动在添加进hello: main.c message.c和gcc main.c message.c -o hello中的c文件中找到需要的头文件和头文件的实现
+
+在 Makefile 中，头文件的依赖是可以手动指定的，但并不是必需的。当编译器编译源文件（如 main.c 和 message.c）时，它会自动找到并包含在代码中指定的头文件（如 #include "message.h"）。但是，如果头文件被更新，而相应的源文件没有被重新编译，就可能会导致错误。
+
+为了确保所有依赖项在文件更改时都能够正确地重新编译，可以在 Makefile 中明确指定头文件的依赖。 这是一个简单的示例：
+
+Makefile:
+
+makefile
+hello: main.o message.o
+    gcc main.o message.o -o hello
+
+main.o: main.c message.h
+    gcc -c main.c
+
+message.o: message.c message.h
+    gcc -c message.c
+在这个 Makefile 中，main.o 和 message.o 明确依赖于 message.h，这确保了在 message.h 更改时，相应的源文件会被重新编译。
