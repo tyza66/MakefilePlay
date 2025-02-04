@@ -1,0 +1,8 @@
+-f 指定makefile的名字
+make -f hello.kk
+加上-n 参数可以打印make要执行的命令 但是不会真的执行
+
+大C比较常用 用于指定makefile执行的目录
+make -C folder1
+但项目的工程下有多个不同的子模块,每个子模块都有自己的makefile的时候
+就可以在工程的根目录下创建一个汇总的makefile去调用各个子模块的makefile

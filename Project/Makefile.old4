@@ -10,7 +10,10 @@ all: $(target)
 $(target): $(object)
 	gcc $(CFALGS) $(object) -o $@
 
-%.o: %.c
+main.o: main.c
+	gcc $(CFALGS) -c $< -o $@
+
+message.o: message.c
 	gcc $(CFALGS) -c $< -o $@
 
 clean:
