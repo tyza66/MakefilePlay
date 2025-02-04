@@ -11,10 +11,10 @@ $(target): $(object)
 	gcc $(CFALGS) $(object) -o $@
 
 main.o: main.c
-	gcc $(CFALGS) -c $< -o $@
+	gcc $(CFALGS) -c main.c
 
 message.o: message.c
-	gcc $(CFALGS) -c $< -o $@
+	gcc $(CFALGS) -c message.c
 
 clean:
 	rm -f *.o hello
